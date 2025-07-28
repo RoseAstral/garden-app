@@ -1,6 +1,6 @@
 # Hardcoded values for the season and plant type
-season = input("plase enter 'summer' or 'winter': ")
-plant_type = input("Please enter 'flower' or 'vegetable': ")
+season = input("plase enter 'summer' or 'winter' or 'autumn': ")
+plant_type = input("Please enter 'flower' or 'vegetable' or 'fruit': ")
 
 # Variable to hold gardening advice
 advice = ""
@@ -26,6 +26,8 @@ if plant_type == "flower":
     advice += "Use fertiliser to encourage blooms."
 elif plant_type == "vegetable":
     advice += "Keep an eye out for pests!"
+elif plant_type == 'fruit':
+    advice += "Wait for it to be ripe"
 else:
     advice += "No advice for this type of plant."
 
